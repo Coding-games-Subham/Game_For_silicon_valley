@@ -24,18 +24,7 @@
    var sew1,sew2,sew3,sew4;
    var button;
    var se1,se2;
-   
-
-   function preload(){
-     img1=loadAnimation("1.png","2.png");
-     img2=loadImage("2.png");
-     /* img3=loadImage("running-101-gif(1)4.gif");
-     img4=loadImage("running-101-gif(1)5.gif");
-     img5=loadImage("running-101-gif(1)6.gif");
-     img6=loadImage("running-101-gif(1)7.gif");
-     img7=loadImage("running-101-gif(1)8.gif");
-     img8=loadImage("running-101-gif(1)9.gif");*/
-    }
+  
 function setup() {
   createCanvas(1300,710);
    button = createSprite(720,450,100,30);
